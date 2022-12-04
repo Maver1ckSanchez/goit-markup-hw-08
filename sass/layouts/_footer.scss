@@ -72,19 +72,24 @@
     flex-direction: row;
   }
   @media screen and (min-width: 1200px) {
-    gap: 93px;
     flex-wrap: nowrap;
   }
 }
 
 .footer-address-wrap {
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-right: 165px;
+    margin-right: 105px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 10px;
   }
 }
 
 .join-footer {
   align-items: center;
+  @media screen and (min-width: 1200px) {
+    margin-right: 33px;
+  }
 }
 
 .join-footer-header {

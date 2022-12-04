@@ -10,8 +10,8 @@
 .navigation__logo {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   color: var(--accent-color);
 }
 
@@ -19,6 +19,10 @@
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
+
+  @media screen and (max-width: 767px) {
+    padding: 16px 0;
+  }
 }
 
 .partlogo-header {

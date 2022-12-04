@@ -87,8 +87,8 @@ ul {
 .navigation__logo {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   color: var(--accent-color);
 }
 
@@ -96,6 +96,11 @@ ul {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    padding: 16px 0;
+  }
 }
 
 .partlogo-header {
@@ -560,6 +565,12 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+@media screen and (min-width: 1200px) {
+  .ourteam-header {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+}
 
 .ourteam-description {
   padding-top: 30px;
@@ -773,19 +784,28 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .footer-container {
-    gap: 93px;
     flex-wrap: nowrap;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-address-wrap {
-    margin-right: 165px;
+    margin-right: 105px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-address-wrap {
+    margin-right: 10px;
   }
 }
 
 .join-footer {
   align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .join-footer {
+    margin-right: 33px;
+  }
 }
 
 .join-footer-header {

@@ -11,6 +11,11 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .ourteam-description {
